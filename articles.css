@@ -55,7 +55,7 @@ body {
   }
 }
 
-@media only screen and (min-width:750px) {
+@media only screen and (min-width:850px) {
   .main {
     height: auto;
     width: 75%;
@@ -69,7 +69,6 @@ body {
 
 .main {
   height: auto;
-  width: 100;
   background-color: white;
   float: right;
   -ms-flex: 70%; 
@@ -81,4 +80,36 @@ body {
   background-color: lightgray;
   width: 100%;
   padding: 20px;
+}
+
+@media only screen and (min-width:850px) {
+
+.row {
+  width: 25%;
+  height: auto;
+  float: left;
+}
+
+iframe {
+  height: 400px;
+  margin-top: 15%;
+  width: 90%;
+}
+
+}
+
+@media only screen and (min-width:700px) {
+  iframe {
+  height: 400px;
+  margin-top: 5%;
+  width: 90%;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  iframe {
+    height: 200px;
+    margin-top: 5%;
+    width: 80%;
+    }
 }
